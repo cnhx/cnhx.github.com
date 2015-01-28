@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 {% if site.JB.comments.provider and page.comments != false %}
-=======
-{% if site.JB.comments.provider and page.JB.comments != false %}
->>>>>>> FETCH_HEAD
 
 {% case site.JB.comments.provider %}
 {% when "disqus" %}
